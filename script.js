@@ -48,10 +48,10 @@ document.addEventListener('DOMContentLoaded', function() {
             audioPlayer.play().catch(function(error) {
                 console.log('Error playing audio:', error);
             });
-            playButton.textContent = 'Play';
+            playButton.textContent = 'Try again';
         } else {
             audioPlayer.pause();
-            playButton.textContent = 'Pause';
+            playButton.textContent = 'Jaehyun';
         }
     });
 });
